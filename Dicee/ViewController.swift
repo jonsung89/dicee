@@ -31,8 +31,8 @@ class ViewController: UIViewController {
         
         print("Dice1: \(randomDiceIndex1), Dice2: \(randomDiceIndex2)")
         
-        diceImageView1.image = UIImage(named: "\(diceArray[randomDiceIndex1])")
-        diceImageView2.image = UIImage(named: "\(diceArray[randomDiceIndex2])")
+        diceImageView1.image = UIImage(named: diceArray[randomDiceIndex1])
+        diceImageView2.image = UIImage(named: diceArray[randomDiceIndex2])
     }
 
 }
